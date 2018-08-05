@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage"
+    android:id="@+id/homePage">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:text="मधुमेह"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="141dp"
+        android:layout_height="159dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="68dp"
+        android:background="#F00541"
+        android:text="सामान्य जानकारी" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="141dp"
+        android:layout_height="159dp"
+
+        android:layout_alignParentEnd="true"
+
+        android:layout_alignTop="@+id/button5"
+        android:layout_marginEnd="28dp"
+        android:background="#5F9AFD"
+        android:text="औषधी ब्यवस्थापन" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="141dp"
+        android:layout_height="159dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/button5"
+        android:layout_marginBottom="120dp"
+        android:background="#02C11B "
+        android:text="जोखिम व्यवहार" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="141dp"
+        android:layout_height="159dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/button6"
+        android:layout_alignTop="@+id/button7"
+        android:layout_marginEnd="31dp"
+        android:background="#FADC09"
+        android:text="शारीरिक व्यायाम" />
+
+
+</RelativeLayout>
