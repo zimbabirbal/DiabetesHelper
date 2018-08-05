@@ -124,11 +124,11 @@ public class DietPage extends Fragment {
             else if (weight < 51)
             {
                 sb.setProgress(1 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("अन्डर वेट");
             }
             else{
                 sb.setProgress(9 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("ओभर वेट ");
             }
         }
         else if (height==5 && (inch >=0 && inch<1))
@@ -141,11 +141,11 @@ public class DietPage extends Fragment {
             else if (weight < 51)
             {
                 sb.setProgress(1 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("अन्डर वेट ");
             }
             else{
                 sb.setProgress(9 + weight/100);
-                seekbarText.setText("अस्वस्थ");
+                seekbarText.setText("ओभर वेट");
             }
         }
         else if(height==5 && (inch >=1 && inch<2))
@@ -158,11 +158,11 @@ public class DietPage extends Fragment {
             else if (weight < 54)
             {
                 sb.setProgress(1 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("अन्डर वेट ");
             }
             else{
                 sb.setProgress(9 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("ओभर वेट ");
             }
         }
         else if(height==5 && (inch >=2 && inch<3))
@@ -175,11 +175,11 @@ public class DietPage extends Fragment {
             else if (weight < 55)
             {
                 sb.setProgress(1 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("अन्डर वेट ");
             }
             else{
                 sb.setProgress(9 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("ओभर वेट ");
             }
         }
         else if(height==5 && (inch >=3 && inch<4))
@@ -192,11 +192,11 @@ public class DietPage extends Fragment {
             else if (weight < 55)
             {
                 sb.setProgress(1 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("अन्डर वेट ");
             }
             else{
                 sb.setProgress(9 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("ओभर वेट");
             }
         }
         else if(height==5 && (inch >=4 && inch<5))
@@ -209,11 +209,11 @@ public class DietPage extends Fragment {
             else if (weight < 57)
             {
                 sb.setProgress(1 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("अन्डर वेट ");
             }
             else{
                 sb.setProgress(9 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("ओभर वेट ");
             }
         }
         else if(height==5 && (inch >=5 && inch<6))
@@ -226,11 +226,11 @@ public class DietPage extends Fragment {
             else if (weight < 58)
             {
                 sb.setProgress(1 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("अन्डर वेट ");
             }
             else{
                 sb.setProgress(9 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("ओभर वेट ");
             }
         }
         else if(height==5 && (inch >=6 && inch<7))
@@ -243,11 +243,11 @@ public class DietPage extends Fragment {
             else if (weight < 61)
             {
                 sb.setProgress(1 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("अन्डर वेट ");
             }
             else{
                 sb.setProgress(9 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("ओभर वेट");
             }
         }
         else if(height==5 && (inch >=7 && inch<8))
@@ -260,11 +260,11 @@ public class DietPage extends Fragment {
             else if (weight < 62)
             {
                 sb.setProgress(1 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("अन्डर वेट ");
             }
             else{
                 sb.setProgress(9 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("ओभर वेट");
             }
         }
         else if(height==5 && (inch >=8 && inch<9))
@@ -277,11 +277,11 @@ public class DietPage extends Fragment {
             else if (weight < 64)
             {
                 sb.setProgress(1 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("अन्डर वेट ");
             }
             else{
                 sb.setProgress(9 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("ओभर वेट ");
             }
         }
         else if(height==5 && (inch >=9 && inch<10))
@@ -295,11 +295,11 @@ public class DietPage extends Fragment {
             else if (weight < 67)
             {
                 sb.setProgress(1 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("अन्डर वेट ");
             }
             else{
                 sb.setProgress(9 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("ओभर वेट ");
             }
         }
         else if(height==5 && (inch >=10 && inch<11))
@@ -313,11 +313,11 @@ public class DietPage extends Fragment {
             else if (weight < 67)
             {
                 sb.setProgress(1 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("अन्डर वेट ");
             }
             else{
                 sb.setProgress(9 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("ओभर वेट ");
             }
         }
         else if(height==5 && (inch >=11 && inch<12))
@@ -331,11 +331,11 @@ public class DietPage extends Fragment {
             else if (weight < 68)
             {
                 sb.setProgress(1 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("अन्डर वेट ");
             }
             else{
                 sb.setProgress(9 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("ओभर वेट ");
             }
         }
         else
@@ -351,16 +351,16 @@ public class DietPage extends Fragment {
             if(weight >=50&& weight <= 60)
             {
                 sb.setProgress(5);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("स्वस्थ ");
             }
             else if (weight < 50)
             {
                 sb.setProgress(1 + weight/100);
-                seekbarText.setText("अलि नराम्रो");
+                seekbarText.setText("अन्डर वेट");
             }
             else{
                 sb.setProgress(8 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("ओभर वेट ");
             }
         }
         else if (height==5 && (inch >=0 && inch<1))
@@ -373,11 +373,11 @@ public class DietPage extends Fragment {
             else if (weight < 56)
             {
                 sb.setProgress(1 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("अन्डर वेट ");
             }
             else{
                 sb.setProgress(8 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("ओभर वेट ");
             }
         }
         else if(height==5 && (inch >=1 && inch<2))
@@ -390,11 +390,11 @@ public class DietPage extends Fragment {
             else if (weight < 57)
             {
                 sb.setProgress(1 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("अन्डर वेट ");
             }
             else{
                 sb.setProgress(8 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("ओभर वेट ");
             }
         }
         else if(height==5 && (inch >=2 && inch<3))
@@ -407,11 +407,11 @@ public class DietPage extends Fragment {
             else if (weight < 58)
             {
                 sb.setProgress(1 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("अन्डर वेट ");
             }
             else{
                 sb.setProgress(8 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("ओभर वेट ");
             }
         }
         else if(height==5 && (inch >=3 && inch<4))
@@ -424,11 +424,11 @@ public class DietPage extends Fragment {
             else if (weight < 59)
             {
                 sb.setProgress(1 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("अन्डर वेट ");
             }
             else{
                 sb.setProgress(8 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("ओभर वेट ");
             }
         }
         else if(height==5 && (inch >=4 && inch<5))
@@ -441,11 +441,11 @@ public class DietPage extends Fragment {
             else if (weight < 61)
             {
                 sb.setProgress(1 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("अन्डर वेट ");
             }
             else{
                 sb.setProgress(8 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("ओभर वेट ");
             }
         }
         else if(height==5 && (inch >=5 && inch<6))
@@ -458,11 +458,11 @@ public class DietPage extends Fragment {
             else if (weight < 61)
             {
                 sb.setProgress(1 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("अन्डर वेट ");
             }
             else{
                 sb.setProgress(8 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("ओभर वेट   ");
             }
         }
         else if(height==5 && (inch >=6 && inch<7))
@@ -475,11 +475,11 @@ public class DietPage extends Fragment {
             else if (weight < 64)
             {
                 sb.setProgress(1 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("अन्डर वेट ");
             }
             else{
                 sb.setProgress(8 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("ओभर वेट  ");
             }
         }
         else if(height==5 && (inch >=7 && inch<8))
@@ -492,11 +492,11 @@ public class DietPage extends Fragment {
             else if (weight < 65)
             {
                 sb.setProgress(1 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("अन्डर वेट ");
             }
             else{
                 sb.setProgress(8 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("ओभर वेट   ");
             }
         }
         else if(height==5 && (inch >=8 && inch<9))
@@ -509,11 +509,11 @@ public class DietPage extends Fragment {
             else if (weight < 67)
             {
                 sb.setProgress(1 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("अन्डर वेट ");
             }
             else{
                 sb.setProgress(8 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("ओभर वेट   ");
             }
         }
         else if(height==5 && (inch >=9 && inch<10))
@@ -527,11 +527,11 @@ public class DietPage extends Fragment {
             else if (weight < 69)
             {
                 sb.setProgress(1 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("अन्डर वेट ");
             }
             else{
                 sb.setProgress(8 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("ओभर वेट   ");
             }
         }
         else if(height==5 && (inch >=10 && inch<11))
@@ -545,11 +545,11 @@ public class DietPage extends Fragment {
             else if (weight < 71)
             {
                 sb.setProgress(1 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("अन्डर वेट ");
             }
             else{
                 sb.setProgress(8 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("ओभर वेट   ");
             }
         }
         else if(height==5 && (inch >=11 && inch<12))
@@ -563,11 +563,11 @@ public class DietPage extends Fragment {
             else if (weight < 74)
             {
                 sb.setProgress(1 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("अन्डर वेट ");
             }
             else{
                 sb.setProgress(8 + weight/100);
-                seekbarText.setText("अस्वस्थ ");
+                seekbarText.setText("ओभर वेट   ");
             }
         }
         else
